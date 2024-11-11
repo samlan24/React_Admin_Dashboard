@@ -1,0 +1,131 @@
+.navbar {
+  /* Layout Properties */
+  top: 18px;
+  left: 18px;
+  width: 1564px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* UI Properties */
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 70px;
+  opacity: 1;
+}
+
+.logo {
+  top: 30px;
+  left: 50px;
+  width: 211px;
+  height: 48px;
+  padding-left: 32px;
+}
+
+.nav_links {
+  /* Layout Properties */
+  top: 23px;
+  left: 473px;
+  width: 663px;
+  height: 63px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 32px;
+  /* UI Properties */
+  opacity: 1;
+  list-style-type: none;
+}
+
+.nav_item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav_item p {
+  top: 45px;
+  left: 649px;
+  width: 57px;
+  height: 19px;
+  padding-left: 8px;
+  /* UI Properties */
+  text-align: center;
+  font: normal normal bold 14px/19px Manrope;
+  letter-spacing: 0px;
+  color: #072635;
+  opacity: 1;
+}
+
+.nav_item a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #000;
+}
+
+.patient {
+  top: 34px;
+  left: 601px;
+  width: 122px;
+  height: 41px;
+  /* UI Properties */
+  background: #01f0d0 0% 0% no-repeat padding-box;
+  border-radius: 41px;
+  opacity: 1;
+}
+
+.doctor {
+  display: flex;
+  align-items: center;
+  margin-right: 32px;
+}
+
+.doc_details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 8px;
+}
+
+.doc_details h4 {
+  margin: 0;
+  /* Layout Properties */
+  top: 35px;
+  left: 1361px;
+  width: 119px;
+  height: 19px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal bold 14px Manrope;
+  letter-spacing: 0px;
+  color: #072635;
+  opacity: 1;
+}
+
+.doc_details p {
+  /* Layout Properties */
+  top: 54px;
+  left: 1361px;
+  width: 129px;
+  height: 19px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal normal 12px Manrope;
+  letter-spacing: 0px;
+  color: #707070;
+  opacity: 1;
+}
+
+.vertical-line {
+  width: 1px;
+  height: 40px;
+  background-color: #ccc;
+  margin: 0 10px;
+}
+
+.setting {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #072635;
+}

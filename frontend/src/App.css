@@ -1,0 +1,35 @@
+body {
+  /* Layout Properties */
+  top: 0px;
+  left: 0px;
+  max-width: 1600px;
+  height: 1195px;
+
+  /* UI Properties */
+  background: #f6f7f8 0% 0% no-repeat padding-box;
+  opacity: 1;
+  font-family: "Manrope", sans-serif;
+}
+
+p {
+  margin: 0;
+}
+
+.main_content {
+  /* Layout Properties */
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.content_area {
+  display: flex;
+  flex-direction: column;
+}
+
+.last_section {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
